@@ -1,4 +1,4 @@
-import firebase from "./firebase.js";
+import firebase from "../firebase.js";
 
 const writeData = () => {
   const dbRef = firebase.firestore().collection("data").doc("test");
