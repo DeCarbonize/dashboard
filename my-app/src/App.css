@@ -41,6 +41,10 @@ h1 {
   padding-right: 10%;
 }
 
+#offset {
+  color: greenyellow;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -3,10 +3,10 @@ import './App.css';
 import CountUp from 'react-countup';
 
 function App() {
-    var emissions = 4;
-    var miles = 2300;
-    var purchases = 10;
-    var offsetCost = 165;
+    var emissions = 729;
+    var miles = 2374;
+    var purchases = 27;
+    var offsetCost = 168;
 
   return (
     <div className="App">
@@ -18,7 +18,7 @@ function App() {
                 <h1>
                     <CountUp start={0} end={emissions} duration={2.75}/>
                 </h1>
-                <p>Tons of carbon emissions produced</p>
+                <p>Kilograms of carbon emissions produced</p>
             </div>
 
             <div class="subStat">
